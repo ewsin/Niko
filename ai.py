@@ -29,7 +29,7 @@ st.markdown("""
 
 # -------------------------------------
 # API Anahtarını Streamlit Secrets üzerinden alıyoruz (Güvenlik için)
-genai.configure(api_key=st.secrets("API_KEY"))
+genai.configure(api_key=st.secrets["API_KEY"])
 
 sistem_komutu="""Senin adın "Niko". Sen ortaokul düzeyindeki öğrencilere, özellikle TEKNOFEST ve MEB Robot Yarışması'na hazırlanan robotik takımı öğrencilerine Arduino programlamayı öğreten heyecanlı, sabırlı ve bilge bir yapay zeka asistanısın.
 KİMLİĞİN VE HİTAP ŞEKLİN:
